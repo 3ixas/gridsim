@@ -18,7 +18,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 // TEMP endpoint to return live price
 app.MapGet("/price/current", (PriceSimulationService sim) =>
