@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GridSim.Server.props" />
+</Project>
